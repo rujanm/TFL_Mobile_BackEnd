@@ -1,0 +1,362 @@
+[
+  {
+    "model": "api.store",
+    "pk": 1,
+    "fields": {
+      "name": "Corporate Office",
+      "address": "202 S 73rd St, Omaha, NE 68114, USA",
+      "longitude": -96.02647382372189,
+      "lattitude": 41.25860337347587,
+      "phone_number": "+14023995377",
+      "website": "https://megasaver.com/"
+    }
+  },
+  {
+    "model": "api.store",
+    "pk": 2,
+    "fields": {
+      "name": "24TH & Q",
+      "address": "5101 S 24th St, Omaha, NE 68107",
+      "longitude": -95.94657,
+      "lattitude": 41.20674,
+      "phone_number": "+14029348020",
+      "website": "https://megasaver.com/"
+    }
+  },
+  {
+    "model": "api.store",
+    "pk": 3,
+    "fields": {
+      "name": "Broadway",
+      "address": "3540 W Broadway, Council Bluffs, IA 51501",
+      "longitude": -95.90382,
+      "lattitude": 41.26217,
+      "phone_number": "+17122562126",
+      "website": "https://megasaver.com/"
+    }
+  },
+  {
+    "model": "api.store",
+    "pk": 4,
+    "fields": {
+      "name": "84th & Center",
+      "address": "8409 W Center Rd, Omaha, NE 68124",
+      "longitude": -96.04352,
+      "lattitude": 41.2339,
+      "phone_number": "+15314667575",
+      "website": "https://megasaver.com/"
+    }
+  },
+  {
+    "model": "api.store",
+    "pk": 5,
+    "fields": {
+      "name": "14th & Abbott",
+      "address": "2505 Abbott Plaza, Omaha, NE 68110, USA",
+      "longitude": -95.91174,
+      "lattitude": 41.28158,
+      "phone_number": "+14023454000",
+      "website": "https://megasaver.com/"
+    }
+  },
+  {
+    "model": "api.store",
+    "pk": 6,
+    "fields": {
+      "name": "20th L",
+      "address": "2014 L St, Omaha, NE 68107, USA",
+      "longitude": -95.94241,
+      "lattitude": 41.21242,
+      "phone_number": "+14029325377",
+      "website": "https://megasaver.com/"
+    }
+  },
+  {
+    "model": "api.store",
+    "pk": 7,
+    "fields": {
+      "name": "24th & J",
+      "address": "4420 S 24th St, Omaha, NE 68107, USA",
+      "longitude": -95.94736,
+      "lattitude": 41.21574,
+      "phone_number": "+14029327868",
+      "website": "https://megasaver.com/"
+    }
+  },
+  {
+    "model": "api.store",
+    "pk": 8,
+    "fields": {
+      "name": "Bellevue",
+      "address": "11511 S 36th St, Bellevue, NE 68123, USA",
+      "longitude": -95.96686,
+      "lattitude": 41.13847,
+      "phone_number": "+14029335755",
+      "website": "https://megasaver.com/"
+    }
+  },
+  {
+    "model": "api.store",
+    "pk": 9,
+    "fields": {
+      "name": "41st & Dodge",
+      "address": "4108 Dodge St, Omaha, NE 68131, USA",
+      "longitude": -95.97491,
+      "lattitude": 41.25996,
+      "phone_number": "+14025510302",
+      "website": "https://megasaver.com/"
+    }
+  },
+  {
+    "model": "api.store",
+    "pk": 10,
+    "fields": {
+      "name": "42nd & Grover",
+      "address": "3402 S 42nd St, Omaha, NE 68105, USA",
+      "longitude": -95.97621,
+      "lattitude": 41.22785,
+      "phone_number": "+14025560202",
+      "website": "https://megasaver.com/"
+    }
+  },
+  {
+    "model": "api.store",
+    "pk": 11,
+    "fields": {
+      "name": "44th & California",
+      "address": "4429 California St, Omaha, NE 68131, USA",
+      "longitude": -95.98039,
+      "lattitude": 41.26447,
+      "phone_number": "+14025566070",
+      "website": "https://megasaver.com/"
+    }
+  },
+  {
+    "model": "api.store",
+    "pk": 12,
+    "fields": {
+      "name": "46th & Hamilton",
+      "address": "1357 NW Radial Hwy, Omaha, NE 68132, USA",
+      "longitude": -95.98298,
+      "lattitude": 41.27189,
+      "phone_number": "+14029165051",
+      "website": "https://megasaver.com/"
+    }
+  },
+  {
+    "model": "api.store",
+    "pk": 13,
+    "fields": {
+      "name": "54th & Center",
+      "address": "5444 Center St, Omaha, NE 68106, USA",
+      "longitude": -95.99764,
+      "lattitude": 41.23945,
+      "phone_number": "+14029328333",
+      "website": "https://megasaver.com/"
+    }
+  },
+  {
+    "model": "api.store",
+    "pk": 14,
+    "fields": {
+      "name": "60th & Grover",
+      "address": "6000 Grover St, Omaha, NE 68106, USA",
+      "longitude": -96.00518,
+      "lattitude": 41.22732,
+      "phone_number": "+14025541930",
+      "website": "https://megasaver.com/"
+    }
+  },
+  {
+    "model": "api.store",
+    "pk": 15,
+    "fields": {
+      "name": "72nd & Blondo",
+      "address": "7204 Blondo St, Omaha, NE 68134, USA",
+      "longitude": -96.02477,
+      "lattitude": 41.27842,
+      "phone_number": "+14022550034",
+      "website": "https://megasaver.com/"
+    }
+  },
+  {
+    "model": "api.store",
+    "pk": 16,
+    "fields": {
+      "name": "72nd & Harrison",
+      "address": "7210 Harrison St, Ralston, NE 68127, USA",
+      "longitude": -96.02444,
+      "lattitude": 41.19125,
+      "phone_number": "+14023315897",
+      "website": "https://megasaver.com/"
+    }
+  },
+  {
+    "model": "api.store",
+    "pk": 17,
+    "fields": {
+      "name": "72nd & Military",
+      "address": "7205 Lawndale Dr, Omaha, NE 68134, USA",
+      "longitude": -96.02435,
+      "lattitude": 41.29678,
+      "phone_number": "+14025720877",
+      "website": "https://megasaver.com/"
+    }
+  },
+  {
+    "model": "api.store",
+    "pk": 18,
+    "fields": {
+      "name": "77th & L",
+      "address": "4725 S 77th Ave, Ralston, NE 68127, USA",
+      "longitude": -96.03307,
+      "lattitude": 41.21181,
+      "phone_number": "+14029334353",
+      "website": "https://megasaver.com/"
+    }
+  },
+  {
+    "model": "api.store",
+    "pk": 19,
+    "fields": {
+      "name": "85th & Blondo",
+      "address": "8540 Blondo St, Omaha, NE 68134, USA",
+      "longitude": -96.04723,
+      "lattitude": 41.27803,
+      "phone_number": "+14028842123",
+      "website": "https://megasaver.com/"
+    }
+  },
+  {
+    "model": "api.store",
+    "pk": 20,
+    "fields": {
+      "name": "87th & Maple",
+      "address": "8727 Maple St, Omaha, NE 68134, USA",
+      "longitude": -96.04842,
+      "lattitude": 41.28478,
+      "phone_number": "+14023912650",
+      "website": "https://megasaver.com/"
+    }
+  },
+  {
+    "model": "api.store",
+    "pk": 21,
+    "fields": {
+      "name": "90th & Maple",
+      "address": "8928 Maple St, Omaha, NE 68134, USA",
+      "longitude": -96.05228,
+      "lattitude": 41.28543,
+      "phone_number": "+14023999999",
+      "website": "https://megasaver.com/"
+    }
+  },
+  {
+    "model": "api.store",
+    "pk": 22,
+    "fields": {
+      "name": "107th & Blondo",
+      "address": "10707 Blondo St, Omaha, NE 68134, USA",
+      "longitude": -96.08089,
+      "lattitude": 41.27754,
+      "phone_number": "+14029630010",
+      "website": "https://megasaver.com/"
+    }
+  },
+  {
+    "model": "api.store",
+    "pk": 23,
+    "fields": {
+      "name": "108th & Maple",
+      "address": "3223 N 108th St, Omaha, NE 68164, USA",
+      "longitude": -96.08064,
+      "lattitude": 41.8837,
+      "phone_number": "+14029326342",
+      "website": "https://megasaver.com/"
+    }
+  },
+  {
+    "model": "api.store",
+    "pk": 24,
+    "fields": {
+      "name": "108th & Q",
+      "address": "10780 Q St, Omaha, NE 68127, USA",
+      "longitude": -96.08082,
+      "lattitude": 41.20586,
+      "phone_number": "+14029340798",
+      "website": "https://megasaver.com/"
+    }
+  },
+  {
+    "model": "api.store",
+    "pk": 25,
+    "fields": {
+      "name": "144th & Blondo",
+      "address": "1910 N 144th St, Omaha, NE 68154, USA",
+      "longitude": -96.13946,
+      "lattitude": 41.27728,
+      "phone_number": "+14029337685",
+      "website": "https://megasaver.com/"
+    }
+  },
+  {
+    "model": "api.store",
+    "pk": 26,
+    "fields": {
+      "name": "168th & Harrison",
+      "address": "16808 Audrey St, Omaha, NE 68136, USA",
+      "longitude": -96.17835,
+      "lattitude": 41.19024,
+      "phone_number": "+14029348869",
+      "website": "https://megasaver.com/"
+    }
+  },
+  {
+    "model": "api.store",
+    "pk": 27,
+    "fields": {
+      "name": "Florida",
+      "address": "1301 NE 4th Ave, Fort Lauderdale, FL 33304, USA",
+      "longitude": -80.14109,
+      "lattitude": 26.14253,
+      "phone_number": "+19549905606",
+      "website": "https://megasaver.com/"
+    }
+  },
+  {
+    "model": "api.store",
+    "pk": 28,
+    "fields": {
+      "name": "9th Ave & 36th Street",
+      "address": "3609 9th Ave, Council Bluffs, IA 51501, USA",
+      "longitude": -95.90502,
+      "lattitude": 41.25355,
+      "phone_number": "+17127963494",
+      "website": "https://megasaver.com/"
+    }
+  },
+  {
+    "model": "api.store",
+    "pk": 29,
+    "fields": {
+      "name": "Calhoun Rd",
+      "address": "9516 Calhoun Rd, Omaha, NE 68112, USA",
+      "longitude": -95.96659,
+      "lattitude": 41.3465,
+      "phone_number": "+14024531827",
+      "website": "https://megasaver.com/"
+    }
+  },
+  {
+    "model": "api.store",
+    "pk": 30,
+    "fields": {
+      "name": "84th and Center",
+      "address": "8409 W Center Rd, Omaha, NE 68124, USA",
+      "longitude": -96.04362,
+      "lattitude": 41.23339,
+      "phone_number": "+15314667575",
+      "website": "https://megasaver.com/"
+    }
+  }
+]
