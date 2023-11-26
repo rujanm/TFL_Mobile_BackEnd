@@ -8,9 +8,6 @@ from phonenumber_field.modelfields import PhoneNumberField
 
 
 
-# Create your models here.
-
-
 
 
 
@@ -20,24 +17,16 @@ class User(AbstractUser):
     email = models.EmailField(unique=False, blank=True, null=True)
     phone_number = PhoneNumberField(blank=False, unique=True, null=False)
     phone_verified = models.BooleanField(default=False)
+    longitude = models.FloatField(null=True, blank=True)
+    latitude = models.FloatField(null=True, blank=True)
+    requesting_a_ride = models.CharField(max_length=30, null=True, blank=True)
+    giving_a_ride_to = models.CharField(max_length=30, null=True, blank=True)
+    is_driver = models.BooleanField(default=False) 
 
     def __str__(self) -> str:
-        return self.username
+        return f"{self.first_name} {self.last_name}"
 
 
-
-class Store(models.Model):
-    name = models.CharField(max_length=100)
-    address = models.CharField(max_length=100)
-    longitude = models.FloatField()
-    lattitude = models.FloatField()
-    phone_number = models.CharField(max_length=50)
-    website = models.CharField(max_length=150, default='https://megasaver.com/')
-
-    def __str__(self) -> str:
-        return self.name
-   
-    
 
 
 @receiver(post_save, sender=settings.AUTH_USER_MODEL)

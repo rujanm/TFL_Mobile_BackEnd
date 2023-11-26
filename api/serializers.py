@@ -1,5 +1,5 @@
 from pyexpat import model
-from .models import Store, User
+from .models import User
 from rest_framework import serializers
 from rest_framework.exceptions import ValidationError
 import phonenumbers
@@ -63,15 +63,19 @@ class UserSerializer(serializers.ModelSerializer):
 
 
 
-class StoreSerializer(serializers.ModelSerializer):
+class UserSerializer_AllFields(serializers.ModelSerializer):
     class Meta:
-        model = Store
-        fields = [
-                'id' ,
-                'name' ,
-                'address' ,
-                'longitude' ,
-                'lattitude' ,
-                'phone_number' ,
-                'website'
-                ]
+        model = User
+        fields = ['id', 'first_name', 'last_name', 'phone_number', 'latitude', 'longitude', 'is_driver']
+        
+        
+class DriverSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = User
+        fields = ['id', 'first_name', 'last_name', 'phone_number', 'latitude', 'longitude']
+        
+        
+class UserLocationSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = User
+        fields = ['longitude', 'latitude']

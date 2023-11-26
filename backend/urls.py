@@ -2,10 +2,12 @@ from audioop import tomono
 from django.contrib import admin
 from django.urls import path, include
 from rest_framework.authtoken import views
-from api.views import user_save, get_all_stores, send_message, reset_password, phone_number_verification
+from api.views import user_save, send_message, reset_password, phone_number_verification, get_drivers, get_driver_details, UpdateUserLocationView
 import hashlib
 import datetime
 from datetime import date
+
+
 
 def mins_diff():
     now = datetime.datetime.now()
@@ -26,7 +28,6 @@ urlpatterns += [
     path(r'api-token-auth/verify_creds',phone_number_verification),
     path(r'api-token-auth/create_user',user_save),
     path(r'api-token-auth/', views.obtain_auth_token),
-    path(r'api/v1/get_stores/', get_all_stores),
     path(r'api/send_me_message/',send_message)
 ]
 
@@ -45,5 +46,8 @@ hashed_tens_minus_one = hashlib.sha224(b"" + str.encode(tens_minus_one)).hexdige
 
 urlpatterns += [
     path('api/password_recovery/<str:token>/' + hashed_tens + '/',reset_password),
-    path('api/password_recovery/<str:token>/' + hashed_tens_minus_one + '/',reset_password)
+    path('api/v1/get_driver_details/<int:driver_id>/', get_driver_details, name='get_driver_details'),
+    path('api/password_recovery/<str:token>/' + hashed_tens_minus_one + '/',reset_password),
+    path('api/v1/get_drivers/', get_drivers, name='get_drivers'),
+    path('api/v1/update_user_location/<int:user_id>/', UpdateUserLocationView.as_view(), name='update_user_location'),
 ]
